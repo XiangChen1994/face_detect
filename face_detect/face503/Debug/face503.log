@@ -1,0 +1,28 @@
+﻿生成启动时间为 2016/7/8 12:19:52。
+     1>项目“C:\Users\Administrator\Desktop\face503\face503\face503.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\zj\zj-study\vs2013\program\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\face503.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\zj\zj-study\vs2013\program\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\face503.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt face503.cpp face503Dlg.cpp
+         face503Dlg.cpp
+     1>d:\zj\zj-study\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\zj\zj-study\vs2013\program\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>c:\users\administrator\desktop\face503\face503\face503dlg.cpp(263): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\zj\zj-study\vs2013\program\vc\include\stdio.h(356) : 参见“sprintf”的声明
+         face503.cpp
+     1>d:\zj\zj-study\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\zj\zj-study\vs2013\program\vc\include\stdio.h(211) : 参见“fopen”的声明
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\face503.res" face503.rc 
+       Link:
+         D:\zj\zj-study\vs2013\program\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\face503\Debug\face503.exe" /INCREMENTAL /NOLOGO opencv_ml248d.lib opencv_calib3d248d.lib opencv_contrib248d.lib opencv_core248d.lib opencv_features2d248d.lib opencv_flann248d.lib opencv_gpu248d.lib opencv_highgui248d.lib opencv_imgproc248d.lib opencv_legacy248d.lib opencv_objdetect248d.lib opencv_ts248d.lib opencv_video248d.lib opencv_nonfree248d.lib opencv_ocl248d.lib opencv_photo248d.lib opencv_stitching248d.lib opencv_superres248d.lib opencv_videostab248d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\zj\zj-study\vs2013\program\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\Administrator\Desktop\face503\Debug\face503.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\face503\Debug\face503.lib" /MACHINE:X86 Debug\face503.res
+         Debug\face503.obj
+         Debug\face503Dlg.obj
+         Debug\stdafx.obj
+         face503.vcxproj -> C:\Users\Administrator\Desktop\face503\Debug\face503.exe
+     1>已完成生成项目“C:\Users\Administrator\Desktop\face503\face503\face503.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.22
